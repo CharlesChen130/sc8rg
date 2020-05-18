@@ -1,0 +1,1 @@
+The takaway I have is that following the template is important. At first I didn't see why it was discussed for so long, but the more I thought about it the more sense it made. Making these metrics understandable to everyone in CHAOSS is one thing, but these metrics should also be understandable to people outside of CHAOSS, so keeping them uniform could really help with that. 
