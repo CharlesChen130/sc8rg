@@ -1,0 +1,1 @@
+After reading the two articles about licenses, I would choose to use the MIT license for an open source project I might create. I like how it does not restrict its usage to other open source projects. It removes any liability from the project.
