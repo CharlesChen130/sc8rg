@@ -1,0 +1,1 @@
+I was trying to design a login page of this Sails.js. I didn't have any website design knowledge before and I really tried my best on this website design now though it doesn't work. I don't know how to link them together.
