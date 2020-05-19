@@ -1,5 +1,5 @@
 # Sprint 7 SSO Project
-This project is currently live at: https://cs-heidelberg-staging.herokuapp.com/home
+This project is currently live at: https://cs-heidelberg-staging.herokuapp.com/home.   
 There are also some screenshots of the website above.   
 
 It is worked together with the cs4380 database final project. The website is about the restaurant Heidelberg which is near the campus.   
