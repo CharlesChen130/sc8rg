@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<div class="container pt-5">
+    <div class="row mt-5">
+
+        <div class="col-2 d-flex align-content-center flex-wrap">
+            <div ngbDropdown class="d-inline-block">
+                <button class="btn btn-secondary" id="dropdownBasic1" ngbDropdownToggle>Menu</button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button ngbDropdownItem [routerLink]="['/foodmenu']">Food Menu</button>
+                    <button ngbDropdownItem [routerLink]="['/drink_menu']">Drink Menu</button>
+                    <button ngbDropdownItem [routerLink]="['/seasonal_drinks']">Seasonal Drinks</button>
+                    <button ngbDropdownItem [routerLink]="['/drink_menu_archive']">Drink Menu Archive</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex align-content-center flex-wrap">
+            <div ngbDropdown class="d-inline-block">
+                <button class="btn btn-secondary" id="dropdownBasic1" ngbDropdownToggle>Inventory</button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button ngbDropdownItem [routerLink]="['/inventory_analytics']">Inventory Analytics</button>
+                    <button ngbDropdownItem [routerLink]="['/inventory_non_perishables']">Non-perishable Items</button>
+                    <button ngbDropdownItem [routerLink]="['/inventory_perishables']">Perishable Items</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex align-content-center flex-wrap">
+            <div class="d-inline-block">
+                <button class="btn btn-secondary" [routerLink]="['/employee']">Employee</button>
+            </div>
+        </div>
+
+        <div class="col-2 d-flex align-content-center flex-wrap">
+            <div ngbDropdown class="d-inline-block">
+                <button class="btn btn-secondary" id="dropdownBasic1" ngbDropdownToggle>Sales</button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button ngbDropdownItem [routerLink]="['/sales']">Sales</button>
+                    <button ngbDropdownItem [routerLink]="['/food_sales']">Food Sales</button>
+                    <button ngbDropdownItem [routerLink]="['/drink_sales']">Drink Sales</button>
+                    <button ngbDropdownItem [routerLink]="['/hourly_sales']">Hourly Sales</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
